@@ -33,6 +33,8 @@ while True:
         lives -= 1
         if lives == 0:
             print("You lose!!!")
+            print(f"The word was {rand_word}")
+            input("")
             break
         
 
@@ -46,4 +48,5 @@ while True:
 
     if "_" not in display:
         print("You win!!!")
+        input("")
         break
